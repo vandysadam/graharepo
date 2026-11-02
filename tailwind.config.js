@@ -17,6 +17,9 @@ module.exports = {
   		}
   	},
   	extend: {
+		transitionTimmingFunction: {
+			'patah': 'steps(6, end)',
+		},
   		colors: {
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',

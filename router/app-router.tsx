@@ -6,11 +6,11 @@ import DashboardLoaderPage from './../src/pages/dashboard-loader';
 import ProjectSlider from '@/pages/project/projects-slider';
 
 const HomeScreen = React.lazy(() => import('../src/pages/homescreen/home-screen'));
-const AboutScreen = React.lazy(() => import('../src/pages/about/about-screen'));
+const TentangKamiScreen = React.lazy(() => import('../src/pages/tentangkami/tentangkami-screen'));
 const ProjectScreen = React.lazy(() => import('../src/pages/project/projects'));
 const CostPlanningScreen = React.lazy(() => import('../src/pages/costplaning/cost-planning'));
 const ContactScreen = React.lazy(() => import('../src/pages/contact/contact-screen'));
-const Activity = React.lazy(() => import('../src/pages/activity/activity'))
+const Layanan = React.lazy(() => import('../src/pages/layanan/layanan'))
 
 const AppRouter: React.FC = () => {
   const location = useLocation();
@@ -33,18 +33,18 @@ const AppRouter: React.FC = () => {
           }
         />
         <Route
-          path="/about"
+          path="/TentangKami"
           element={
             <React.Suspense fallback={<DashboardLoaderPage />}>
-               <AboutScreen/>
+               <TentangKamiScreen/>
             </React.Suspense>
           }
         ></Route>
         <Route
-          path="/activity"
+          path="/Layanan"
           element={
             <React.Suspense fallback={<DashboardLoaderPage />}>
-               <Activity/>
+               <Layanan/>
             </React.Suspense>
           }
         ></Route>

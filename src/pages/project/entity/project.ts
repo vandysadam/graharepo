@@ -78,6 +78,8 @@ import HotelCrownVista3 from "../../../assets/images/Data-Foto-Proyek/proyek-cro
 export const projek = [
   {
     id: "Proyek-Apartemen-Galeri-Ciumbuleuit-3-Bandung",
+    category: "HAR",
+    location: "Bandung",
     title: "Proyek Gallery Ciumbeluit 3 - Bandung",
     image: GalleryCiumbeluit,
     images: [GalleryCiumbeluit, GalleryCiumbeluit],
@@ -86,6 +88,8 @@ export const projek = [
   },
   {
     id: "proyek-apartmen-pacific-garden-style",
+    category: "HAR",
+    location: "Alam Sutera",
     title: "Apartemen Pacific Garden Style - Alam Sutera",
     image: ApartmentPacificGardenStyle,
     images: [
@@ -99,6 +103,8 @@ export const projek = [
   },
   {
     id: "Proyek-RS-Reginamaris-Medan",
+    category: "Hospital",
+    location: "Medan",
     title: "Rumah Sakit Regina Maris - Medan",
     image: RSUReginaMaris,
     images: [
@@ -113,6 +119,8 @@ export const projek = [
   },
   {
     id: "Proyek-Budi-lestari-bekasi2",
+    category: "Hospital",
+    location: "Bekasi",
     title: "RSIA Budi Lestari - Bekasi",
     image: RSIABudiLestari,
     images: [
@@ -126,6 +134,8 @@ export const projek = [
   },
   {
     id: "Proyek-Hegarmanah-Residence-Bandung",
+    category: "HAR",
+    location: "Bandung",
     title: "Apartemen Hegarmanah Residence - Bandung",
     image: ApartmenHegarmanah,
     images: [ApartmenHegarmanah, ApartmenHegarmanah],
@@ -134,6 +144,8 @@ export const projek = [
   },
   {
     id: "Proyek-Queen-City-semarang",
+    category: "HAR",
+    location: "Semarang",
     title: "Queen City Mall, Hotel & Promenada Apartement - Semarang",
     image: QueenCity,
     images: [QueenCity, QueenCity],
@@ -142,6 +154,8 @@ export const projek = [
   },
   {
     id: "Proyek-Rumah-tinggal-Bukit-menteng-Bintaro",
+    category: "HAR",
+    location: "Tangerang Selatan",
     title: "Proyek-Rumah-tinggal-Bukit-menteng-Bintaro",
     image: RumahTinggalBukitMenteng,
     images: [RumahTinggalBukitMenteng, RumahTinggalBukitMenteng],
@@ -150,6 +164,8 @@ export const projek = [
   },
   {
     id: "Proyek-Cordela-1-CROP",
+    category: "HAR",
+    location: "Jakarta",
     title: "Hotel Cordela - Jakarta",
     image: HotelCordelaJkt,
     images: [HotelCordelaJkt, HotelCordelaJkt],
@@ -158,6 +174,8 @@ export const projek = [
   },
   {
     id: "Proyek-RSIA-Stella-maris-medan",
+    category: "Hospital",
+    location: "Medan",
     title: "RSIA Stella Maris - Medan",
     image: RsiaStellaMaris,
     images: [
@@ -187,6 +205,8 @@ export const projek = [
   // },
   {
     id: "Proyek-Poris-88-Apartement-Tangerang",
+    category: "HAR",
+    location: "Tangerang",
     title: "Apartemen Poris 88 - Tangerang",
     image: ApartmentPoris88,
     images: [ApartmentPoris88, ApartmentPoris88],
@@ -195,6 +215,8 @@ export const projek = [
   },
   {
     id: "Proyek-Novotel-Batam",
+    category: "HAR",
+    location: "Batam",
     title: "Novotel - Batam",
     image: NovotelBatam,
     images: [NovotelBatam, NovotelBatam],
@@ -203,6 +225,8 @@ export const projek = [
   },
   {
     id: "Proyek-RSU-Gracia-Nias",
+    category: "Hospital",
+    location: "Nias",
     title: "RSU Gracia Maris - Nias",
     image: RsuGraciaMarisNias,
     images: [
@@ -219,6 +243,8 @@ export const projek = [
   },
   {
     id: "Proyek-pasific-garden-puri",
+    category: "HAR",
+    location: "Jakarta",
     title: "Perumahan Pacific Garden Puri - Jakarta",
     image: PacificGardenPuri,
     images: [
@@ -233,6 +259,8 @@ export const projek = [
   },
   {
     id: "Proyek-The-Manhattan-Mall-&-Condominium-Medan",
+    category: "HAR",
+    location: "Medan",
     title: "The Manhattan Mall - Medan",
     image: TheManhattanMedan,
     images: [TheManhattanMedan, TheManhattanMedan],
@@ -241,6 +269,8 @@ export const projek = [
   },
   {
     id: "Proyek-UIB-Batam",
+    category: "HAR",
+    location: "Batam",
     title: "Gedung Rektorat Universitas International - Batam",
     image: Uib,
     images: [Uib, Uib1, Uib2, Uib3, Uib4],
@@ -249,6 +279,8 @@ export const projek = [
   },
   {
     id: "Proyek-Tigermandiri-head-office",
+    category: "Office",
+    location: "Jakarta",
     title: "Tiger Mandiri Head Office - Jakarta",
     image: TigerMandiriHeadOffice,
     images: [TigerMandiriHeadOffice, TigerMandiriHeadOffice],
@@ -257,6 +289,8 @@ export const projek = [
   },
   {
     id: "Proyek-kampi-hotel-bintaro",
+    category: "HAR",
+    location: "Tangerang Selatan",
     title: "Hotel Kampi - Bintaro",
     image: HotelKampi,
     images: [
@@ -272,6 +306,8 @@ export const projek = [
   },
   {
     id: "Proyek-hotel-mercure-jakarta",
+    category: "HAR",
+    location: "Jakarta",
     title: "Renovasi Hotel Ibis Budged Menjadi Mercure Hotel - Jakarta",
     image: HotelMercure,
     images: [HotelMercure, HotelMercure],
@@ -280,6 +316,8 @@ export const projek = [
   },
   {
     id: "Proyek-Gudang-Pik",
+    category: "Factory",
+    location: "Jakarta",
     title: "Proyek Gudang Tertutup & Office Pik - Jakarta",
     image: GudangofficePik,
     images: [GudangofficePik, GudangofficePik],
@@ -288,6 +326,8 @@ export const projek = [
   },
   {
     id: "CRWNVST-1",
+    category: "HAR",
+    location: "Batam",
     title: "Proyek Renovasi Hotel Crown Vista & Function Hall - Batam",
     image: HotelCrownVista,
     images: [

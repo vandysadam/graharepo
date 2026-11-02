@@ -11,12 +11,12 @@ const components: { title: string; to: string; }[] = [
     to: "/",
   },
   {
-    title: "About",
-    to: "/about",
+    title: "Tentang Kami",
+    to: "/TentangKami",
   },
   {
-    title: "Activity",
-    to: "/activity",
+    title: "Layanan",
+    to: "/Layanan",
   },
   {
     title: "Project",
@@ -51,7 +51,7 @@ export default function MenuHeaderSection() {
       {/* Tombol Burger Menu */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400"
+        className="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 text-black"
       >
         {isOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
@@ -59,7 +59,7 @@ export default function MenuHeaderSection() {
       {/* Menu */}
       <ul
         className={cn(
-          "flex grid-col md:flex-row gap-1 md:gap-12 p-4 md:p-0 fixed md:sticky  top-18 right-0 bg-white bg-opacity-80 md:bg-transparent rounded-lg md:rounded-none transition-all ",
+          "flex flex-col w-full md:flex-row gap-2 md:gap-6 p-4 md:p-0 fixed md:static top-16 right-0 text-center left-0 bg-black/90 md:bg-transparent rounded-lg md:rounded-none",
           isOpen ? "block" : "hidden md:flex"
         )}
       >
@@ -90,8 +90,8 @@ HTMLAnchorElement,
           "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors focus:bg-accent focus:text-accent-foreground",
           className
         )}
-        {...props}        >
-          <div className="text-lg font-small leading-none">{title}</div>
+        {...props}>
+          <div className="text-lg font-light leading-none">{title}</div>
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
             {children}
           </p>

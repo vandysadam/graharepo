@@ -3,6 +3,7 @@ import Menu2Section from "./menu2section";
 import SectionFooter from "./footerSecton";
 import Menu3Section from "./menu3section";
 import Menu4Section from "./menu4section";
+import Menu25Section from "./menu3.5section";
 
 
 export interface DashboardProps {}
@@ -15,6 +16,9 @@ export default function HomeScreen({}: DashboardProps) {
       </div>
       <div className="flex flex-col flex-1">
       <Menu2Section />
+      </div>
+      <div className="flex flex-col flex-1">
+      <Menu25Section />
       </div>
       <div className="flex flex-col flex-1">
       <Menu3Section />
