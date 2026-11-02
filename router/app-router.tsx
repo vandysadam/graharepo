@@ -3,8 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css'; 
 import { ToastContainer } from 'react-toastify';
 import DashboardLoaderPage from './../src/pages/dashboard-loader';
-import ProjectSlider from '@/pages/project/projects-slider';
-
+import ProjectSlider from '../src/pages/project/projects-slider';
 const HomeScreen = React.lazy(() => import('../src/pages/homescreen/home-screen'));
 const TentangKamiScreen = React.lazy(() => import('../src/pages/tentangkami/tentangkami-screen'));
 const ProjectScreen = React.lazy(() => import('../src/pages/project/projects'));

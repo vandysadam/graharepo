@@ -6,24 +6,12 @@ export interface DashboardProps {}
 
 export default function TentangKami({}: DashboardProps) {
 
-  
     return (
       <DashboardLayout>
-          <div>
-              <div className="flex flex-col flex-1">
-                <LayananSec1/>
-              </div>
-              <div className="flex flex-col flex-1">
-                <ServiceLayout/>
-              </div>
-              <div className="flex flex-col flex-1">
-
-              </div>
-              <div className="flex flex-col flex-1">
-
-              </div>
+          <div className="flex flex-col">
+            <LayananSec1/>
+            <ServiceLayout/>
           </div>
       </DashboardLayout>
     );
   }
-  
